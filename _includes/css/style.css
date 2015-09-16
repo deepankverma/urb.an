@@ -32,7 +32,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 100;
+	font-style: italic;
+	color: #b3b3b3
 }
 
 p { 
@@ -79,12 +81,12 @@ a:focus {
 }
 
 ::-moz-selection  {
-	color: #fff;
+	color: {{site.colors.primary_rgb}};
 	text-shadow:none;
 	background:{{ site.colors.secondary }};
 }
 ::selection {
-	color: #fff;
+	color: {{site.colors.primary_rgb}};
 	text-shadow:none;
 	background:{{ site.colors.secondary }};
 }
@@ -224,12 +226,12 @@ a:focus {
 }
 
 #headerwrap h3, h5 {
-	color: white;
+	color: {{ site.colors.primary }};
 	font-weight: 400;
 }
 
 #headerwrap h1 {
-	color: white;
+	color: {{ site.colors.primary }};
 	margin-bottom: 25px;
 }
 
