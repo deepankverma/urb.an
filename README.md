@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Solid. A Bootstrap theme for Jekyll.
 ============
 ![Screenshot](https://st4ple.github.io/solid-jekyll/assets/img/browser.png)
@@ -77,3 +78,6 @@ To publish with [GitHub Pages](https://pages.github.com/), simply create a branc
 If there are problems with loading assets like CSS files and images, make sure that the `baseurl` in the `_config.yml`is set correctly (it should say `/repositoryname`).
 
 If you want to host your website somewhere else than GitHub (or just would like to customize and build your site locally), please check out the [Jekyll documentation](http://jekyllrb.com/). 
+=======
+# urb.an
+>>>>>>> 1c32ff7e8cd0ce8ef6e92c3ee33f8daa7b289cb2
