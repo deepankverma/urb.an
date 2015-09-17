@@ -219,7 +219,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #C1113F;
+	background-color: whitesmoke;
 	min-height: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -239,7 +239,12 @@ a:focus {
 #headerwrap .img-responsive {
 	margin: 0 auto;
 }
+	
+}
 
+
+
+}
 /* Services Wrap */
 #service {
 	margin-top: 0px;
@@ -507,4 +512,17 @@ a.anchor{
     position: relative; 
     top: -80px; 
     visibility: hidden;
+}
+.logo {
+  height: 150px;
+  width: 50%;
+  /*background-position: center;
+  background-repeat: no-repeat;*/
+  position: absolute;
+  top: 50%;
+  /*margin-top: -50px;
+  margin-left: -200px;*/
+  bottom: 50%;
+  right: 50%;
+  left: 50%
 }

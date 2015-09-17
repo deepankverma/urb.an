@@ -6,6 +6,7 @@ description: "Write an awesome description for your new site here. You can edit 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://yourdomain.com"
+port: 9000
 
 # Build settings
 markdown: kramdown
