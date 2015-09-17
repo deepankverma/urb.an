@@ -25,7 +25,7 @@ body {
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	color: {{ site.colors.secondary }};
+	color: {{ site.colors.secondary }};
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-style: italic;
-	color: #b3b3b3
+	color: #C1113F;
 }
 
 p { 
@@ -107,6 +107,7 @@ a:focus {
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
+	font-size: 50px;
 }
 
 .navbar-header .navbar-brand {
@@ -218,10 +219,10 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
+	background-color: #C1113F;
 	min-height: 0px;
-	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	text-align: center;
 }
 
