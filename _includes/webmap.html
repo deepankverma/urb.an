@@ -1,0 +1,102 @@
+---
+layout: contact
+title: Contact
+permalink: /contact/
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <title> PR02 MZR </title>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+  <style>
+    body {
+      margin: 50;
+      padding: 50;
+    }
+    
+    .map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <style>
+    .ui-button {
+      background: #FF9C79;
+      color: #FFF;
+      display: block;
+      position: absolute;
+      top: 15%;
+      left: 7%;
+      width: 75px;
+      margin: -20px 0 0 -80px;
+      z-index: 100;
+      text-align: center;
+      padding: 5px;
+      
+      border-radius: 7.5px;
+    }
+    
+    .ui-button:hover {
+      background: #FF540D;
+      color: #fff;
+    }
+  </style>
+
+
+
+  <div id='map' class='map'> </div>
+ <!-- <a href='#' id='geolocate' class='ui-button'>Location</a> -->
+  <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoiZGVlcGFuayIsImEiOiJzX251YTJjIn0.BYwQttCUSbXmPAW_Rly1fw';
+var geolocate = document.getElementById('geolocate');
+var map = L.mapbox.map('map', 'mapbox.streets').setView([22.3145444,87.3090667], 14);
+var myLayer = L.mapbox.featureLayer().addTo(map)
+
+/*
+if (!navigator.geolocation) {
+  geolocate.innerHTML = 'Geolocation is not available';
+} else {
+  geolocate.onclick = function (e) {
+    
+   e.preventDefault();
+   e.stopPropagation();
+   map.locate();
+  };
+}
+
+map.on('locationfound', function(e) {
+  map.fitBounds(e.bounds);
+  myLayer.setGeoJSON({
+    type: 'Feature', 
+    geometry: {
+      type: 'Point',
+      coordinates: [e.latlng.lng, e.latlng.lat]
+    },
+    properties: {
+      'title': 'Here I am!',
+      'marker-color': '#ff8888',
+      'marker-symbol': 'star'
+    }
+  });
+  
+  geolocate.parentNode.removeChild(geolocate);
+});
+
+map.on('locationerror', function() {
+  geolocate.innerHTML = 'Position could not be found';
+});*/
+
+  </script>  
+</body>
+
+</html>
