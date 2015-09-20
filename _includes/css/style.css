@@ -226,7 +226,7 @@ a:focus {
 	overflow: hidden;
 	background-attachment: fixed;
 	background-size: 600px;
-	height: 600px;
+	height: 625px;
 	position: relative;
 	text-align: center;
 }
@@ -527,4 +527,11 @@ a.anchor{
   top: 50%;
   /*margin-top: -50px;
   margin-left: -200px;*/
+}
+
+.first-icon {
+	height: 100px;
+	width: auto;
+	padding-top: 25px;
+	color: {{site.colors.primary}};
 }
