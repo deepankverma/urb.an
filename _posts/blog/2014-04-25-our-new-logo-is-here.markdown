@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Our new logo is here"
+title:  "Post#2"
 date:   2015-07-25 16:54:46
 author: Admin
 categories: 

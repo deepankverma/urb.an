@@ -1,8 +1,8 @@
 ---
 layout: question
-title:  "Why did the Chicken cross the road?"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+title:  "Are we Smart enough to live in smart cities?"
+date:   2015-08-25 16:54:46
+author: Deepank
 categories:
 - question
 ---

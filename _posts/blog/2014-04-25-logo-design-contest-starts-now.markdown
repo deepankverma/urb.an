@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Logo design contest starts now"
+title: "Post#1"
 date: 2015-08-25 16:54:46
 author: Admin
 categories:

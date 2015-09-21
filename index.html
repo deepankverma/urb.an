@@ -40,7 +40,7 @@ permalink: /
         </div>  -->
 
         <div class="col-lg-6">
-            <h4>Frequently Asked</h4>
+            <h4>Latest Urban issues</h4>
             <div class="hline"></div>
             {% for post in site.categories['question'] %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
@@ -48,7 +48,7 @@ permalink: /
         </div>
 
         <div class="col-lg-6">
-            <h4>Latest Posts</h4>
+            <h4>Random Interesting Posts (R.I.P)</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:5 %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
