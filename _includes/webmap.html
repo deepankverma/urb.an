@@ -23,6 +23,8 @@ permalink: /contact/
       top: 0;
       bottom: 0;
       width: 100%;
+      padding-bottom: 20px;
+      
     }
   </style>
 </head>
@@ -58,10 +60,17 @@ permalink: /contact/
  <!-- <a href='#' id='geolocate' class='ui-button'>Location</a> -->
   <script>
     L.mapbox.accessToken = 'pk.eyJ1IjoiZGVlcGFuayIsImEiOiJzX251YTJjIn0.BYwQttCUSbXmPAW_Rly1fw';
-var geolocate = document.getElementById('geolocate');
-var map = L.mapbox.map('map', 'mapbox.streets').setView([22.3145444,87.3090667], 14);
+//var geolocate = document.getElementById('geolocate');
+var map = L.mapbox.map('map', 'mapbox.streets',{zoomControl: false}).setView([22.3145444,87.3090667], 15);
 var myLayer = L.mapbox.featureLayer().addTo(map)
 
+map.dragging.disable();
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+
+// Disable tap handler, if present.
+if (map.tap) map.tap.disable();
 /*
 if (!navigator.geolocation) {
   geolocate.innerHTML = 'Geolocation is not available';

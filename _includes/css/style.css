@@ -519,12 +519,12 @@ a.anchor{
     visibility: hidden;
 }
 .logo {
-  height: 100px;
+  height: 150px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  top: 50%;
+  top: 35%;
   /*margin-top: -50px;
   margin-left: -200px;*/
 }
