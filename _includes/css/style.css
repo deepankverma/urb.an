@@ -535,3 +535,9 @@ a.anchor{
 	padding-top: 25px;
 	color: {{site.colors.primary}};
 }
+
+.fronttext {
+	font-style: italic;
+	font-size: 30px;
+	line-height: 45px;
+}
